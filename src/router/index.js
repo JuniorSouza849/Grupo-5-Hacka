@@ -1,14 +1,15 @@
 import Vue from 'vue'
+import kitquebrada from '../components/kitquebrada'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+//import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'kitquebrada',
+    component: kitquebrada
   },
   {
     path: '/about',

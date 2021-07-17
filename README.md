@@ -1,4 +1,4 @@
-# ixepa
+# Kit Quebrada
 
 ## Project setup
 ```
