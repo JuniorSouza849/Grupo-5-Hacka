@@ -9,7 +9,7 @@
       </h3>
       <ul type="disc"> 
     <li id="menu1" class="menu-title"> <a href="https://instagram.com/kitquebradaoficial?utm_medium=copy_link" target="_blank"> Conheça&nbsp;a Kit Quebrada </a> </li>
-    <li> <a href="https://wa.me/message/FL6P5TFWDHU2P1" target="_blank">Trabalhe Conosco</a> </li>
+    <li> <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">Trabalhe Conosco</a> </li>
     <li>Doe uma Cesta</li>
     <li> <a href="https://drive.google.com/file/d/12EPtqFffRas6-02NOXz9NLCWU1hKRsPX/view?usp=drivesdk" target="_blank">Seja um doador</a> </li>
     <li><a href="#test">suporte</a></li>
