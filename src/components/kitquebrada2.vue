@@ -1,32 +1,45 @@
 <template>
-   <div>
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
-<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-
-<div id="app">
-  <h1>Hello App!</h1>
-  <p>
-    <!-- use router-link component for navigation. -->
-    <!-- specify the link by passing the `to` prop. -->
-    <!-- `<router-link>` will be rendered as an `<a>` tag by default -->
-    <router-link to="/foo">Go to Foo</router-link>
-    <router-link to="/bar">Go to Bar</router-link>
-  </p>
-  <!-- route outlet -->
-  <!-- component matched by the route will render here -->
-  <router-view></router-view>
-</div>
-
-
-</div>
+  <div id="app">
+    <h3>
+    <img src="./assets/kitfavela.png" class="logo">
+    <kitquebrada msg="Welcome to Your kitquebrada.js App"/>
+    <h5>
+    <p>Mais de 116 milhões de brasileiros não têm comida suficiente ou passam fome, diz pesquisa.</p>
+    </h5>
+      </h3>
+      <ul type="disc"> 
+    <li id="menu1" class="menu-title"> <a href="https://instagram.com/kitquebradaoficial?utm_medium=copy_link" target="_blank"> Conheça&nbsp;a Kit Quebrada </a> </li>
+    <li> <a href="https://wa.me/message/FL6P5TFWDHU2P1" target="_blank">Trabalhe Conosco</a> </li>
+    <li>Doe uma Cesta</li>
+    <li> <a href="https://drive.google.com/file/d/12EPtqFffRas6-02NOXz9NLCWU1hKRsPX/view?usp=drivesdk" target="_blank">Seja um doador</a> </li>
+    <li><a href="#test">suporte</a></li>
+  </ul> 
+  </div>
+ 
 </template>
 
 <script>
-export default {    
+import kitquebrada from './components/kitquebrada.vue'
+
+export default {
+  name: 'App',
+  components: {
+    kitquebrada
+  }
 }
 </script>
 
-<style scoped>
-
-
+<style>
+.logo{
+  width: 300px;
+  height: 300px;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>

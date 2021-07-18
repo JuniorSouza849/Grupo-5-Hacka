@@ -2,7 +2,7 @@
   <div id="app">
     <h3>
     <img src="./assets/kitfavela.png" class="logo">
-    <ixepa msg="Welcome to Your Ixepa.js App"/>
+    <kitquebrada msg="Welcome to Your kitquebrada.js App"/>
     <h5>
     <p>Mais de 116 milhões de brasileiros não têm comida suficiente ou passam fome, diz pesquisa.</p>
     </h5>
@@ -15,16 +15,16 @@
     <li><a href="#test">suporte</a></li>
   </ul> 
   </div>
-
+ 
 </template>
 
 <script>
-import Ixepa from './components/ixepa.vue'
+import kitquebrada from './components/kitquebrada.vue'
 
 export default {
   name: 'App',
   components: {
-    Ixepa
+    kitquebrada
   }
 }
 </script>

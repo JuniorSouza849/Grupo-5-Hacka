@@ -12,15 +12,12 @@
    <div>
            <button>Login</button>
    </div>
- 
 
 </div>
 </template>
 
 <script>
-export default {
-        name: 'KitQuebrada'
-           
+export default {          
 }
 </script>
 
